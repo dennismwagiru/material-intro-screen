@@ -238,6 +238,14 @@ public abstract class MaterialIntroActivity extends AppCompatActivity {
     }
 
     /**
+     * Hides any next button
+     */
+    @SuppressWarnings("unused")
+    public void hideNextButton() {
+        nextButton.setVisibility(View.INVISIBLE);
+    }
+
+    /**
      * Get translation wrapper for next button
      *
      * @return ViewTranslationWrapper
